@@ -8,8 +8,8 @@ public class Greeter {
   /**
    * This is a constructor.
    */
-  public Greeter() {}  
-  
+  public Greeter() {
+  }  
   /**
   *@param greet
   *@return greeting
