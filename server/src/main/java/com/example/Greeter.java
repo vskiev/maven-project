@@ -12,8 +12,8 @@ public class Greeter {
 
   }  
 /**
-*@param some one
-*@retun greeating string
+*@param "some one"
+*@retun "greeating string"
 *
 */
   public final String greet(final String someone) {
