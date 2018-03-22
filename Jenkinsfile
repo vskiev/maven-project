@@ -25,7 +25,7 @@ pipeline {
        {
            stage('Build')
            {
-               step
+               steps
                {
                  sh 'mvn clean package'
                }
@@ -39,7 +39,7 @@ pipeline {
 
            stage('stage 2')
            {
-              step
+              steps
                {
                    
                }
