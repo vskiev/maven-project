@@ -31,20 +31,11 @@ pipeline {
                }
                post{
                    success{
-                      'Now Archiving...'
+                      sh 'Now Archiving...'
                       archiveArtifacts artifacts: '**/target/*.war' 
                    }
                }
            }
-
-           stage('stage 2')
-           {
-              steps
-               {
-                   
-               }
-           }
-
           
 
        }
