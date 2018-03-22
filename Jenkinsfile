@@ -27,7 +27,7 @@ pipeline {
            {
                steps
                {
-                 sh '/var/lib/maven/bin/mvn clean package_pepline'
+                 sh '/var/lib/maven/bin/mvn clean package'
                }
                post{
                    success{
