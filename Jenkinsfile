@@ -32,7 +32,7 @@ pipeline {
                post{
                    success{
                       sh 'Now Archiving...'
-                    //   archiveArtifacts artifacts: '**/target/*.war', fingerprint: true 
+                      archiveArtifacts artifacts: '**/target/*.war', fingerprint: true 
                          }
                }
            }
